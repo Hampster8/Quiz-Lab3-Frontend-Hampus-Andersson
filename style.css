@@ -1,0 +1,52 @@
+
+body {
+background-image: url("https://www.downloadclipart.net/large/harry-potter-png-transparent-background.png");
+background-repeat: repeat-x;
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 100px;
+background: beige;
+background-image: url("code.jpg");
+color: black;
+}
+label {
+	display: block;
+	}
+	
+	input {
+	width: 30px;
+	margin-left: 20px;
+	}
+	
+	button {
+	width: 100px;
+	margin-top: 20px;
+	align-self: center;
+	}
+
+input {
+	width: 200px;
+}
+
+h2 {
+	align-items: center;
+}
+
+.correct-answers {
+	color: green;
+}

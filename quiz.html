@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js" ></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div id="main">
+        <div id="header">
+            <h1 align="center">Test your knowledge within the Potterverse</h1>
+            
+        </div>
+        
+        <h1 align="center">Harry Potter Quiz</h1>
+            <form id="form1">
+                <h2>Which dragon does Fleur Delacour face in the first task of the Triwizard Tournament?</h2>
+                    <label><input name="q1" type="radio" id="right1" required>Hungarian Horntail</label>
+                    <label><input name="q1" type="radio">Welsh Green</label>
+                    <label><input name="q1" type="radio">Swedish Short-Snout</label>
+                    <label><input name="q1" type="radio">Chinese Fireball</label><br>
+                    <p align="center" class="show-answers" style="display:none">Fleur Delacour faced the <b>Hungarian Horntail</b><br></p>  
+
+                <h2>What is written on Dobby's gravestone?</h2>
+                    <label><input name="q2" type="radio" required>RIP DOBBY</label>
+                    <label><input name="q2" type="radio" id="right2" />Here lies Dobby, A Free Elf</label>
+                    <label><input name="q2" type="radio">Dobby is free.</label>
+                    <label><input name="q2" type="radio">I'll be back.</label><br>
+                    <p align="center" class="show-answers" style="display:none">On Dobby's gravestone it says: <b>"Here lies Dobby, A Free Elf"</b><br></p>
+            <div class="form-group q3-div">
+                <h2>Which of the following are <b>NOT</b> nickname of James Potter's gang?</h2>
+                    <label><input class="q3" type="checkbox" >Moony</label>
+                    <label><input class="q3" type="checkbox" >Prongs</label>
+                    <label><input class="q3" type="checkbox" id="right3" >Hairy</label>
+                    <label><input class="q3" type="checkbox" id="right4" >Bloom</label><br>
+                    <p align="center" class="show-answers" style="display:none"><b>Hairy</b> and <b>Bloom</b> were not party of the legendary Marauders.<br></p>
+            </div>
+                <h2>What is the spell that picks locks?</h2>
+                    <label><input type="input" id="alohomora" placeholder="Answer..." required></label><br>
+                    <p align="center" class="show-answers" style="display:none"><b>Alohomora</b> is the incantation used to unlock the toughest of doors.<br></p>
+                
+                <button type="submit" value="Submit" id="submit">Submit</button>
+            </form>
+        
+            <p align="center">Your score is: <span id="score"></span></p>
+            <p align="center"><span id="scoreComment"></span></p>
+
+  
+                
+                
+                
+    </div>
+</body>
+</html>
