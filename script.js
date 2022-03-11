@@ -22,7 +22,10 @@ function checkboxValidate() {
           };
       };
       if ( !isChecked ) {   
-        alert( 'Please, check at least one checkbox!' );  
+        alert( 'Please, check at least one checkbox!' );
+        return false; 
+  }else {
+    return true;
   }
 }
 function countScore() {
@@ -58,7 +61,9 @@ function countScore() {
 
 
 document.getElementById("form1").onsubmit=function() {
-  countScore()
   checkboxValidate()
-  showAnswers()
+  if (checkboxValidate() === true){
+    countScore()
+    showAnswers()
+  }
 }
